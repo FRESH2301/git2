@@ -1,3 +1,7 @@
-#создайте кортеж из 10 случайныйх чисел.Найдите максимальный и минимальный элемент
-a=(1,2,3,4,5,6,7,8,9,10)
-print('max', max(a),'min',min(a))
+import random
+
+a = (random.randint(0, 10))
+b = (random.randint(-5, 0))
+z = a + b
+print(a, b)
+print(z)
